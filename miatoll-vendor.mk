@@ -8,8 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     vendor/xiaomi/miatoll/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
-    vendor/xiaomi/miatoll/proprietary/system_ext/bin/rtspclient:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/rtspclient \
-    vendor/xiaomi/miatoll/proprietary/system_ext/bin/rtspserver:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/rtspserver \
     vendor/xiaomi/miatoll/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
     vendor/xiaomi/miatoll/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/xiaomi/miatoll/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
@@ -36,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/system_ext/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmparser_lite.so \
     vendor/xiaomi/miatoll/proprietary/system_ext/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmrtpdecoder.so \
     vendor/xiaomi/miatoll/proprietary/system_ext/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmrtpencoder.so \
-    vendor/xiaomi/miatoll/proprietary/system_ext/lib/libwfdaac.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdaac.so \
     vendor/xiaomi/miatoll/proprietary/system_ext/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdavenhancements.so \
     vendor/xiaomi/miatoll/proprietary/system_ext/lib/libwfdcommonutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdcommonutils.so \
     vendor/xiaomi/miatoll/proprietary/system_ext/lib/libwfdconfigutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdconfigutils.so \
@@ -402,7 +399,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/vendor/firmware/a618_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a618_gmu.bin \
     vendor/xiaomi/miatoll/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
     vendor/xiaomi/miatoll/proprietary/vendor/firmware/aw8624_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_haptic.bin \
-    vendor/xiaomi/miatoll/proprietary/vendor/firmware/aw8624_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_rtp.bin \
     vendor/xiaomi/miatoll/proprietary/vendor/firmware/drv2624.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/drv2624.bin \
     vendor/xiaomi/miatoll/proprietary/vendor/firmware/drv2624.rtp:$(TARGET_COPY_OUT_VENDOR)/firmware/drv2624.rtp \
     vendor/xiaomi/miatoll/proprietary/vendor/firmware/focaltech_ts_fw_huaxing.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_huaxing.bin \
